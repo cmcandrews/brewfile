@@ -1,0 +1,53 @@
+# Taps
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "caskroom/cask"
+tap "homebrew/cask-fonts"
+tap "caskroom/versions"
+
+# CLI Tools
+brew "awscli"
+brew "curl"
+brew "git"
+brew "less"
+brew "maven"
+brew "npm"
+brew "postgresql"
+brew "pyenv"
+brew "sbt"
+brew "scala"
+brew "wget"
+brew "vim"
+
+# Desktop Applications
+cask "1password"
+cask "atom"
+cask "aware"
+cask "cloudmounter"
+cask "cyberduck"
+cask "daisydisk"
+cask "docker"
+cask "dropbox"
+cask "evernote"
+cask "firefox"
+cask "google-backup-and-sync"
+cask "google-chrome"
+cask "intellij-idea"
+cask "iterm2"
+cask "java"
+cask "kaleidoscope"
+cask "odrive"
+cask "slack"
+cask "spectacle"
+cask "spotify"
+cask "ticktick"
+cask "typora"
+cask "visualvm"
+
+# Alternative Versions
+cask "zulu7"
+cask "java8"
+
+# Fonts
+cask "font-inconsolata-dz"
